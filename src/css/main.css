@@ -1,0 +1,154 @@
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media (max-width: 800px) {
+	.masthead {
+		background-image: url('../images/bg_landscape_w_480.jpg');
+	}
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+	.masthead {
+		background-image: url('../images/bg_landscape_w_816.jpg');
+	}
+}
+
+@media (min-width: 1201px) and (max-width: 1900px) {
+	.masthead {
+		background-image: url('../images/bg_landscape_w_1304.jpg');
+	}
+}
+
+@media (min-width: 1901px) {
+	.masthead {
+		background-image: url('../images/bg_landscape_w_1920.jpg');
+	}
+}
+
+.icon {
+	width: 1.5em;
+}
+
+.icon-input-gmail {
+	background-image: url('../images/gmail.svg');
+	background-repeat: no-repeat;
+	width: 2.5em;
+	margin-left: 0.5em;
+}
+
+.navbar {
+	transition: all 0.4s;
+}
+
+.navbar .nav-link {
+	color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar .navbar-brand {
+	color: #fff;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+	background: #fff;
+	box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+	color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+	color: #555;
+	text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+	color: #555;
+}
+
+section.pricing {
+	background: #923cb5;
+	background: linear-gradient(90deg, #000000, #923cb5);
+}
+
+.pricing .card {
+	border: none;
+	border-radius: 1rem;
+	transition: all 0.2s;
+	box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+	margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+	margin: 0.5rem 0;
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+	font-weight: bold;
+}
+
+.pricing .card-price {
+	font-size: 3rem;
+	margin: 0;
+}
+
+.pricing .card-price .period {
+	font-size: 0.8rem;
+}
+
+.pricing ul li {
+	margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+	opacity: 0.7;
+}
+
+.pricing .btn {
+	font-size: 80%;
+	border-radius: 5rem;
+	letter-spacing: 0.1rem;
+	font-weight: bold;
+	padding: 1rem;
+	opacity: 0.7;
+	transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+	.pricing .card:hover {
+		margin-top: -0.25rem;
+		margin-bottom: 0.25rem;
+		box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+	}
+	.pricing .card:hover .btn {
+		opacity: 1;
+	}
+}
+
+.menu-title {
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: normal;
+	font-size: 32px;
+	margin: 0;
+}
