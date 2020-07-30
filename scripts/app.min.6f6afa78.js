@@ -1,0 +1,1 @@
+"use strict";window.onscroll=function(){var c=document.querySelector(".navbar");10<window.scrollY?c.classList.add("active"):c.classList.remove("active")};
